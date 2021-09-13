@@ -1,0 +1,1 @@
+"# staticRegistrationAssignmentExample" 
