@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+
+header > hr {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.navbar > button {
+  cursor: pointer;
+}
+
+.navbar > button {
+  margin: 0 0.5%;
+  padding: 0.6% 2%;
+  color: white;
+  background: rgb(45, 99, 248);
+  border-radius: 7%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 5% 10%;
+  background: rgb(45, 140, 248);
+  height: 80vh;
+}
+
+.form-wrapper {
+  margin: 10% auto;
+}
+
+.form-body {
+  background: white;
+  width: 20rem;
+  padding: 1rem 2rem;
+}
+
+.form-body > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-input {
+  display: block;
+  margin: 6% auto;
+  padding: 3% 5%;
+  border: 2px solid lightgrey;
+  border-radius: 5%;
+  width: 88%;
+}
+
+.form-input:last-of-type {
+  color: white;
+  background: rgb(45, 99, 248);
+  width: 100%;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.icons > img {
+  max-height: 64px;
+  height: auto;
+}
